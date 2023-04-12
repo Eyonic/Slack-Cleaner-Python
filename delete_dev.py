@@ -13,7 +13,6 @@ client = WebClient(token=SLACK_TOKEN)
 # Specify the channel ID and time range to delete messages
 channel_id = ''
 
-# C016CBVPCJF website-noti
 
 oldest_time = int(time.time()) - (86400 * 7 ) # Delete messages older than 7 days
 
