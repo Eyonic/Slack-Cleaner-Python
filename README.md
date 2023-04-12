@@ -1,5 +1,7 @@
 # Slack-Cleaner-Python
 
+"Sometimes it has a mind of its own and may delete more or less than desired. Still, it's better than doing it manually." 
+
 Introduction:
 This Python script uses the Slack API to delete messages from a specific Slack channel that are older than 7 days. It takes advantage of the WebClient and SlackApiError modules from the Slack SDK to access the Slack workspace and perform the message deletion.
 
